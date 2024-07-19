@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="437dp"
+        android:padding="0dp"
+        android:src="@drawable/Signupimage"
+        tools:layout_editor_absoluteY="-66dp"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Confirm Password EditText -->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="448dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="Logo Image"
+        android:src="@drawable/rectangle2"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSignUp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:id="@+id/textViewAppTitle"
+        android:layout_width="347dp"
+        android:layout_height="52dp"
+        android:layout_margin="16dp"
+        android:text="SIGN UP"
+        android:textColor="#003B46"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="362dp"
+        android:layout_height="62dp"
+        android:layout_margin="16dp"
+        android:hint="User Name"
+        android:textColor="#07575B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="364dp"
+        android:layout_height="67dp"
+        android:layout_margin="16dp"
+        android:hint="Phone no"
+        android:inputType="phone"
+        android:textColor="#07575B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_margin="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#07575B"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="369dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#07575B"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="481dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/buttonshape"
+        android:text="SIGN UP"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="567dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Already have an account? Sign In"
+        android:textSize="20sp"
+        android:textColor="#66A5AD"
+        android:clickable="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

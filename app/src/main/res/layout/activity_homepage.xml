@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Top Background Image -->
+
+    <!-- Bottom Background Image -->
+
+    <!-- ScrollView for the main content -->
+
+    <ImageView
+        android:id="@+id/imageViewTopBackground"
+        android:layout_width="444dp"
+        android:layout_height="308dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intersection1"
+
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="-33dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageViewTopBackground1"
+        android:layout_width="394dp"
+        android:layout_height="290dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/Intersection2"
+
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewTopBackground2"
+        android:layout_width="444dp"
+        android:layout_height="308dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intersection1"
+
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageView
+        android:id="@+id/imageViewBottomBackground"
+        android:layout_width="358dp"
+        android:layout_height="307dp"
+        android:src="@drawable/bckimage"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="383dp"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewTopBackground"
+        app:layout_constraintBottom_toTopOf="@id/imageViewBottomBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            tools:ignore="ExtraText">
+
+            <!-- Top Left Image Icon -->
+
+            <!-- Top Right Image Icon -->
+
+            <!-- Centered Image -->
+
+            <!-- Username EditText -->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageViewCenter"
+        android:layout_width="53dp"
+        android:layout_height="42dp"
+        android:src="@drawable/multimedia"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:src="@drawable/baseline_circle_24"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editTextUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Welcome to"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/editTextUsername1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Student Database App"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <!-- Overlay image -->
+
+
+    <ImageView
+        android:id="@+id/overlay"
+        android:layout_width="67dp"
+        android:layout_height="72dp"
+        android:src="@drawable/plus"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="239dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Rectangle3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="220dp" />
+    <ImageView
+        android:id="@+id/overlayImage"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        android:src="@drawable/viewstud"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="239dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="66dp"
+        android:layout_height="0dp"
+        android:layout_margin="19dp"
+        android:text="   View    Student"
+        android:textColor="#07575B"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="152dp"
+        android:src="@drawable/Rectangle3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <ImageView
+        android:id="@+id/overlay11"
+        android:layout_width="55dp"
+        android:layout_height="69dp"
+        android:src="@drawable/plus"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="43dp"
+        android:text="   Add    Student"
+        android:textColor="#07575B"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="156dp"
+        android:src="@drawable/Rectangle3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="220dp" />
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="43dp"
+        android:text=" Map    View"
+        android:textColor="#07575B"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <ImageView
+        android:id="@+id/overlay123"
+        android:layout_width="55dp"
+        android:layout_height="69dp"
+        android:src="@drawable/map"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
