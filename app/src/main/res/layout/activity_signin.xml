@@ -20,13 +20,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="511dp"
-        android:layout_height="342dp"
+        android:layout_width="819dp"
+        android:layout_height="370dp"
         android:contentDescription="Logo Image"
         android:src="@drawable/Rectangle1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-41dp"
-        tools:layout_editor_absoluteY="225dp" />
+        tools:layout_editor_absoluteX="-150dp"
+        tools:layout_editor_absoluteY="275dp" />
 
     <TextView
         android:id="@+id/textViewAppTitle"
@@ -38,8 +38,8 @@
         android:textSize="40sp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="331dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="339dp" />
 
     <EditText
         android:id="@+id/editTextUsername"
