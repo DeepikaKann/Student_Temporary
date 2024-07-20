@@ -1,8 +1,9 @@
 package com.example.stud
+import android.content.Intent
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -11,29 +12,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Get references to the views
+        val btnLoginFront: Button = findViewById(R.id.buttonLogin)
+        val tvSignup: TextView = findViewById(R.id.textViewSignUp)
 
-        val editTextPassword = findViewById<EditText>(R.id.editTextPassword)
-        val buttonLogin = findViewById<Button>(R.id.buttonLogin)
-
-        // Handle login button click
-        buttonLogin.setOnClickListener {
-            val password = editTextPassword.text.toString()
-
-            // Validate credentials (you can add your logic here)
-            if (isValidCredentials(password)) {
-                // Navigate to the next screen (e.g., home screen)
-                // You can start a new activity or fragment here
-            } else {
-                // Show an error message (e.g., invalid credentials)
-                // For example: Toast.makeText(this, "Invalid credentials", Toast.LENGTH_SHORT).show()
-            }
+        btnLoginFront.setOnClickListener {
+            val intent = Intent(this, SigninPage::class.java)
+            startActivity(intent)
         }
-    }
 
-    private fun isValidCredentials(username: String, password: String): Boolean {
-        // Implement your validation logic (e.g., check against a database)
-        // For demonstration purposes, let's assume valid credentials
-        return true
+        tvSignup.setOnClickListener {
+            val intent = Intent(this, signuppage::class.java)
+            startActivity(intent)
+        }
     }
 }

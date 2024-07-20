@@ -20,13 +20,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="819dp"
-        android:layout_height="370dp"
+        android:layout_width="810dp"
+        android:layout_height="344dp"
         android:contentDescription="Logo Image"
         android:src="@drawable/Rectangle1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-150dp"
-        tools:layout_editor_absoluteY="275dp" />
+        tools:layout_editor_absoluteX="-194dp"
+        tools:layout_editor_absoluteY="300dp" />
 
     <TextView
         android:id="@+id/textViewAppTitle"
